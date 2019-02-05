@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Random Dogs 1</title>
+    <link rel="stylesheet" type="text/css" href="https://meyerweb.com/eric/tools/css/reset/reset.css">
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+    <header>
+        <h1>Random Dogs App</h1>
+    </header>
+    <main>
+        <section class="input-section">
+            <form>
+                <legend><h2>Just select a number of images (between 1 to 50) and press the button.</h2></legend>
+                <fieldset>
+                    <label for="howMany">How many?</label>
+                    <input type="number" id="input-number" min="1" max="50" name="howMany" value="3" required>
+                    <input type="submit" value="Submit">
+                </fieldset>
+            </form>    
+
+        </section>
+
+        <section class="images-section js-hidden">
+            
+        </section>
+    </main>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
